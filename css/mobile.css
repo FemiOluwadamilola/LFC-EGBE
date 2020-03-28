@@ -1,0 +1,32 @@
+*{box-sizing: border-box}
+body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+#nav-bar{
+  position:fixed;
+}
+#nav-bar .menus{
+   width:100%;
+   display:block;
+}
+
+#nav-bar .logo{
+  width:25px;
+  height:25px;
+}
+.humbuger-container {
+  display: inline-block;
+  cursor: pointer;
+  transform:translateX(83%);
+}
+
+.bar1, .bar2, .bar3,.menu-toggler{
+  width: 30px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+

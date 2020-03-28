@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" media=" screen and (max-width:500px)" href="./css/mobile.css">
+	<link rel="stylesheet" href="./css/mainStyle.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link href="fontawesome-free-5.4.2-web/css/all.min.css" rel="stylesheet">
+	<title>LFC EGBE</title>
+</head>
+<body>
+	<nav id="nav-bar">
+		<!-- humbuger menu bar-->
+		<img class="logo" src="./media/LOGO (2).png" alt="LFC logo">
+		<div class="humbuger-container" >
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+		</div>
+		 <ul class="menus">
+				<li><a href="#">Home</a></li>
+				<li><a href="#mandate">Mandate</a></li>
+				<li><a href="#">Announcement</a></li>
+				<li><a href="#">Service Units</a></li>
+				<li><a href="#">Pillars of Commission</a></li>
+				<li><a href="#">WOFBI</a></li>
+				<li><a href="#">WSF</a></li>
+		 </ul>
+		 
+	</nav>
+	<header id="header-section">
+		 <div class="showcase-container">
+			  <div class="showcase-content">
+					<h1 class="showcase-header">join us for our services ( Sunday @<span class="span">8:00am</span> Wednesday @<span class="span">5:00pm</span> ) </h1>
+					<p>COVENANT HOUR OF PRAYER @ 6:00am - 7:00am </p>
+					<a href="#" class="btn btn-danger Btn-mandate">contact us</a>
+				</div>
+		 </div>
+	</header>
+	<section id="mandate" class="main-page">
+		 <main class="">
+				<h1>welcome to living faith church,egbe</h1>
+			<article>
+				<!-- letter from RP -->
+				<h3>From the Resident Pastor:</h3><p style="font-size:1.50rem;text-align:justify; text-indent:25px">Beloved, I am extremely joyous to welcome you to this winning family Living Faith Church also known as Winners' Chapel,Egbe. This spiritual home of refuge is ordained by God to turn little shots into big shots in a short time. You are the next to be celebrated! just as we win in this family,winning becomes your portion from now onward in Jesus name!<br> Beloved, i also want you to know that living Faith church came into being from the liberation Mandate delivered by God to his servant, <strong>Bishop David O. Oyedepo</strong> in an eighteen - hour vision encounter on <strong>May 2<sup>nd</sup>,1981</strong>.Here is the liberation Mandate: <strong>"Now the hour has come to liberate the world from all operations of the devil, through the preaching of the word of faith, and I am sending you to undertake this task".</strong><a class="btn btn-link " id="rd-more" href="#">more!</a></p>
+			</article>
+		 </main>  
+		 <div class="cross"></div>
+	</section>
+	<section id="info-section">
+		 <div class="box about-church">
+				<h3>About US</h3>
+				<div class="banner-container"></div>
+				<p>Living faith church,EGBE is a branch of the Winners' Chapel worldwide located in yabge west(L.G.A) in kogi state Nigeria.</p>
+		 </div>
+		 <div class="box quick-links">
+			 <h3>Quick Links</h3>
+			 <ul class="quick-links-list">
+				 <li><a class="Ql" target="_blank" href="http://www.covenantuniversity.edu.ng">Covenant University</a></li>
+				 <li><a class="Ql" target="_blank" href="http://www.imu.edu.ng">Landmark University</a></li>
+				 <li><a  class="Ql" target="_blank" href="http://www.davidoyedepoministries.org">Faith Tabernacle</a></li>
+				 <li><a class="Ql" href="">Bishop David O. Oyedepo</a></li>	
+			 </ul>
+		 </div>
+		 <div class="box address">
+				<h3>worship with us @</h3>
+				<H4>LIVING FAITH CHURCH,EGBE</H4>
+				 <P>
+				winners' highway,Bareke, off federal Road, Egbe Kogi State.</P>
+				 <p>TEL: 08108662871</p>
+				 <p>E-mail: lfcegbe2006@gmail.com</p>
+				<!-- social medias -->
+				<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+				<a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+				<a href="#" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+		 </div>
+	</section>
+	<footer id="footer">
+		<script>
+			 let year = new Date();
+			 let autoYear = year.getFullYear();
+			const copyRight = document.createElement('p');
+			copyRight.className = 'copyright';
+			copyRight.appendChild(document.createTextNode(`copyright © ${autoYear} winners' chapel international, Egbe`));
+			document.querySelector('footer').appendChild(copyRight);
+		</script>
+	</footer>
+	<div class="modal-box">
+		<div class="modal-box-content">
+		<form action="">
+				<span class="close">&times</span>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="Name" required autocomplete="off">
+				<label for="Email">E-Mail:</label>
+				<input type="email" name="email" id="email" required autocomplete="off">
+				<label for="msg">Message:</label>
+				<textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+				<input type="submit" name="submit" id="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
